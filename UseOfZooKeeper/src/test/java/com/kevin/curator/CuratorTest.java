@@ -16,6 +16,8 @@ import org.junit.Test;
 import java.util.List;
 
 public class CuratorTest {
+    public static void main(String[] args) {
+    }
     CuratorFramework client;
     @Before
     public void testConnect(){

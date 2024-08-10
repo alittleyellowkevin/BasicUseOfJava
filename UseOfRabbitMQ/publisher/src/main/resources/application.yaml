@@ -1,0 +1,20 @@
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    virtual-host: /huang
+    username: huangkaiwen
+    password: 744669
+    connection-timeout: 1s
+    template:
+      retry:
+        enabled: true
+        max-attempts: 3
+        multiplier: 1
+        max-interval: 10000ms
+    publisher-returns: true
+    publisher-confirm-type: correlated
+logging:
+  level:
+    com.kevin: debug
