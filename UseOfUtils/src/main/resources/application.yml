@@ -1,0 +1,11 @@
+sky:
+  alioss:
+    endpoint: oss-cn-shenzhen.aliyuncs.com
+    access-key-id: LTAI5tFRwUwgAwiHa9VadjxM
+    access-key-secret: 2uiG9LfBfKAf2s2tRfOOOoBoFBxVmY
+    bucket-name: gulinall-hkw
+  jwt:
+    # 设置jwt签名加密时使用的秘钥
+    secret-key: itcast
+    # 设置jwt过期时间
+    ttl: 7200000

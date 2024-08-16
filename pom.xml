@@ -20,6 +20,7 @@
         <module>UseOfConcurrent</module>
         <module>UseOfMybatisPlus</module>
         <module>UseOfRedis</module>
+        <module>UseOfUtils</module>
     </modules>
 
     <properties>
